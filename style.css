@@ -1,0 +1,67 @@
+
+        /* ফন্ট ফ্যামিলি কাস্টমাইজেশন */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Merriweather', serif;
+        }
+        
+        body, p, span, a, li, button, input, select, textarea {
+            font-family: 'Lora', serif;
+        }
+
+        .hero-bg {
+            background-image: url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1920&h=1080&fit=crop');
+        }
+        .car-category-1 {
+            background-image: url('https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');
+        }
+        .car-category-2 {
+            background-image: url('https://images.unsplash.com/photo-1544636331-e26879cd4d9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');
+        }
+        .car-category-3 {
+            background-image: url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');
+        }
+        .car-category-4 {
+            background-image: url('https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');
+        }
+        .car-category-5 {
+            background-image: url('https://images.unsplash.com/photo-1560958089-b8a1929cea89?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');
+        }
+        .car-category-6 {
+            background-image: url('https://images.unsplash.com/photo-1563720223185-11003d516935?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80');
+        }
+        .car-1 {
+            background-image: url('https://images.unsplash.com/photo-1563720223185-11003d516935?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');
+        }
+        .car-2 {
+            background-image: url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');
+        }
+        .car-3 {
+            background-image: url('https://images.unsplash.com/photo-1544636331-e26879cd4d9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');
+        }
+        .car-4 {
+            background-image: url('https://images.unsplash.com/photo-1563720223185-11003d516935?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');
+        }
+        .destination-1 {
+            background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');
+        }
+        .destination-2 {
+            background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');
+        }
+        .destination-3 {
+            background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80');
+        }
+        .testimonial-carousel {
+            transform: translateX(0);
+            transition: transform 0.5s ease-in-out;
+        }
+        .mobile-menu {
+            max-height: 0;
+            opacity: 0;
+            transition: all 0.3s ease-in-out;
+            overflow: hidden;
+        }
+        .mobile-menu.open {
+            max-height: 24rem;
+            opacity: 1;
+        }
+ 
